@@ -69,7 +69,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/Thumbnail.png',
       navbar: {
-        title: 'Website do Tiago',
+        title: 'My website',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon-32x32.png',
@@ -79,7 +79,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documentos',
+            label: 'Documents',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
