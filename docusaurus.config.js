@@ -31,7 +31,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en, pt-BR'],
+    locales: ['en'],
   },
 
   presets: [
@@ -69,7 +69,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/Thumbnail.png',
       navbar: {
-        title: 'Website do AFG',
+        title: 'Website do Tiago',
         logo: {
           alt: 'My Site Logo',
           src: 'img/favicon-32x32.png',
