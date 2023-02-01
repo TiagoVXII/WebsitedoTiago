@@ -132,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Flas4hPT / TiagoLobo19. feito com Docusaurus. Servidores e Publicação pelo o CloudFare.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Flas4hPT / TiagoLobo19. Made with Docusaurus. Servers by CloudFare.`,
       },
       prism: {
         theme: lightCodeTheme,
