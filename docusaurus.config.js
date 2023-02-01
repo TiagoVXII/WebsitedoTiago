@@ -1,4 +1,4 @@
-// @ts-check
+/ @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
@@ -6,12 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Flas4hPT / TiagoLobo19 Website',
-  tagline: 'Dinosaurs are cool',
+  title: 'Website Flas4hPT / TiagoLobo19',
+  tagline: 'Bem Vindo',
   favicon: 'img/favicon.ico',
+  
+  
 
   // Set the production url of your site here
-  url: 'https://websitedotiago.pages.dev/',
+  url: 'https://websiteafg.pages.dev/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -29,30 +31,31 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en, pt-BR'],
   },
 
   presets: [
     [
       'classic',
-      // ...
-  presets: [
-    '@docusaurus/preset-classic',
-    {
-      docs: {
-        routeBasePath: '/', // Serve the docs at the site's root
-        /* other docs plugin options */
-      },
-      blog: false, // Optional: disable the blog plugin
-      // ...
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+           'https://github.com/TiagoVXII/websiteafg',
         },
         blog: {
           showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/TiagoVXII/websiteafg',
         },
+        
+       
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -64,23 +67,23 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/Thumbnail.png',
       navbar: {
-        title: 'My Site',
+        title: 'Website do AFG',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon-32x32.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documents',
+            label: 'Documentos',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/TiagoVXII/websiteafg',
             label: 'GitHub',
             position: 'right',
           },
@@ -93,8 +96,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Documentos',
+                to: '/',
               },
             ],
           },
@@ -103,15 +106,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'N/A',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'N/A',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'N/A',
               },
             ],
           },
@@ -129,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Flas4hPT / TiagoLobo19. feito com Docusaurus. Servidores e Publicação pelo o CloudFare.`,
       },
       prism: {
         theme: lightCodeTheme,
