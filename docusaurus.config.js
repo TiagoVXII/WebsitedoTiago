@@ -133,6 +133,11 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Flas4hPT / TiagoLobo19. Made with Docusaurus. Servers by CloudFare.`,
       },
+      colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
