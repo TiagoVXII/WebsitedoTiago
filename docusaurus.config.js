@@ -45,14 +45,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-           'https://github.com/TiagoVXII/WebsitedoTiago/tree/main/docs',
+           'https://github.com/TiagoVXII/WebsitedoTiago/tree/main',
         },
         blog: {
           showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/TiagoVXII/WebsitedoTiago/tree/main/docs',
+            'https://github.com/TiagoVXII/WebsitedoTiago/tree/main',
         },
         
        
@@ -82,7 +82,7 @@ const config = {
             label: 'Documents',
           },
           {
-            href: 'https://github.com/TiagoVXII/websiteafg',
+            href: 'https://github.com/TiagoVXII/WebsitedoTiago',
             label: 'GitHub',
             position: 'right',
           },
@@ -126,7 +126,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/TiagoVXII/WebsitedoTiago',
               },
             ],
           },
