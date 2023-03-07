@@ -143,6 +143,17 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+    themes: [
+      // ... Your other themes.
+      [
+        require.resolve("@easyops-cn/docusaurus-search-local"),
+        /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+        ({
+          hashed: true,
+          docsRouteBasePath: '/',
+        }),
+      ],
+    ],
+  };
 
 module.exports = config;
