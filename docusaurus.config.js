@@ -81,6 +81,9 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          { to: "/blog", label: "Blog", position: "left" },
+          {
+          },
         ],
       },
       footer: {
@@ -106,7 +109,9 @@ const config = {
         /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
         ({
           hashed: true,
-          docsRouteBasePath: '/',
+          indexBlog: true,
+          indexDocs: false,
+          indexPages: false,
         }),
       ],
     ],
