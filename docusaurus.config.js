@@ -40,12 +40,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
            'https://github.com/TiagoVXII/WebsitedoTiago/tree/main',
-           docs: false,
         },
         blog: {
           showReadingTime: false,
@@ -53,7 +53,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/TiagoVXII/WebsitedoTiago/tree/main',
-            routeBasePath: '/',
         },
         
        
@@ -77,12 +76,15 @@ const config = {
         },
         items: [
           {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Documents',
+          },
+          {
             href: 'https://github.com/TiagoVXII/WebsitedoTiago',
             label: 'GitHub',
             position: 'right',
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
           },
         ],
       },
@@ -109,9 +111,7 @@ const config = {
         /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
         ({
           hashed: true,
-          indexBlog: true,
-          indexDocs: false,
-          indexPages: false,
+          docsRouteBasePath: '/',
         }),
       ],
     ],
