@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Work": {
-    "message": "Work",
+    "message": "Trabalho",
     "description": "The label for category Work in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Programming": {
-    "message": "Programming",
+    "message": "Programação",
     "description": "The label for category Programming in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Web Developer": {
@@ -16,11 +16,11 @@
     "description": "The label for category Web Developer in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.English": {
-    "message": "English",
+    "message": "Inglês",
     "description": "The label for category English in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Portuguese": {
-    "message": "Portuguese",
+    "message": "Português",
     "description": "The label for category Portuguese in sidebar tutorialSidebar"
   }
 }
