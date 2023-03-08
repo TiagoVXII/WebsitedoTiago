@@ -263,38 +263,38 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.SearchBar.noResultsText": {
-    "message": "No results"
+    "message": "Sem Resultados"
   },
   "theme.SearchBar.seeAll": {
-    "message": "See all results"
+    "message": "Ver todos resultados"
   },
   "theme.SearchBar.seeAllOutsideContext": {
-    "message": "See results outside {context}"
+    "message": "Ver resultados fora {context}"
   },
   "theme.SearchBar.searchInContext": {
-    "message": "See all results in {context}"
+    "message": "Veja todos os resultados em {context}"
   },
   "theme.SearchBar.label": {
-    "message": "Search",
+    "message": "Pesquisar",
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "Search results for \"{query}\"",
+    "message": "Resultados da busca por \"{query}\"",
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Search the documentation",
+    "message": "Pesquisar na documentação",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.searchContext.everywhere": {
-    "message": "everywhere"
+    "message": "em todos os lugares"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "1 document found|{count} documents found",
+    "message": "1 documento encontrado|{count} documentos encontrados",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "No documents were found",
+    "message": "Nenhum documento foi encontrado",
     "description": "The paragraph for empty search result"
   },
   "theme.common.skipToMainContent": {
