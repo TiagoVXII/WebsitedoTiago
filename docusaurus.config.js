@@ -46,7 +46,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
            'https://github.com/TiagoVXII/WebsitedoTiago/tree/main',
-        },
+          },
         blog: {
           showReadingTime: false,
           // Please change this to your repo.
@@ -90,6 +90,10 @@ const config = {
             type: 'localeDropdown',
             position: 'right',
           },
+          {
+            type: "docsVersionDropdown",
+            position: "right",
+          },
         ],
       },
       footer: {
@@ -111,8 +115,10 @@ const config = {
     themes: [
       // ... Your other themes.
       [
+        // @ts-ignore
         require.resolve("@easyops-cn/docusaurus-search-local"),
         /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+        // @ts-ignore
         ({
           hashed: true,
           docsRouteBasePath: '/',
